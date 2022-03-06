@@ -1,1 +1,1 @@
-This folder is for all Reinfircment files and exercises
+This folder is for all Reinforcement files and exercises
