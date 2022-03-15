@@ -1,0 +1,9 @@
+Inorder to download the csv file please go to:
+https://archive.ics.uci.edu/ml/machine-learning-databases/00240/
+It is under the website:
+https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+It is bigger then 25MB and cannot be included here
+
+Thanks,
+Guy
