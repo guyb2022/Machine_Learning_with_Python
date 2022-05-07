@@ -1,0 +1,110 @@
+Parser analysis report on ibnetdiscover_r-dmz-ufm134 topology
+############################################################
+Connection:
+Switch:
+sysimgguid: 0xb8599f0300fc6de4
+switchguid= 0xb8599f0300fc6de4(b8599f0300fc6de4)
+--- Switch device S-0002c903007b78b0 connected on port 1
+--- Host device H-ec0d9a03007d7d0a connected on port 1
+--- Host device H-ec0d9a03007d7d0b connected on port 1
+--- Host device H-b8599f0300fc6dec connected on port 1
+
+Connection:
+Switch:
+sysimgguid: 0x2c903007b78b0
+switchguid= 0x2c903007b78b0(2c903007b78b0)
+--- Switch device S-b8599f0300fc6de4 connected on port 3
+--- Host device H-e41d2d03005cf34c connected on port 1
+--- Host device H-e41d2d03005cf34d connected on port 1
+--- Host device H-0c42a103008b40d0 connected on port 1
+--- Host device H-0c42a103008b40d1 connected on port 1
+--- Host device H-b8599f03000a77d0 connected on port 1
+--- Host device H-b8599f03000a77d1 connected on port 1
+--- Switch device S-0002c903007b78b0 connected on port 26
+--- Switch device S-0002c903007b78b0 connected on port 25
+--- Switch device S-0002c903007b78b0 connected on port 29
+--- Switch device S-0002c903007b78b0 connected on port 28
+--- Host device H-248a0703002e61db connected on port 1
+--- Host device H-248a0703002e61da connected on port 1
+--- Host device H-0c42a103008b3bd0 connected on port 1
+--- Host device H-0c42a103008b3bd1 connected on port 1
+
+Connection:
+Host:
+sysimgguid: 0xec0d9a03007d7d0a
+port_id= 0xec0d9a03007d7d0b
+--- Switch device S-b8599f0300fc6de4 connected on port 24
+
+Connection:
+Host:
+sysimgguid: 0xb8599f0300fc6de4
+port_id= 0xb8599f0300fc6dec
+--- Switch device S-b8599f0300fc6de4 connected on port 41
+
+Connection:
+Host:
+sysimgguid: 0xec0d9a03007d7d0a
+port_id= 0xec0d9a03007d7d0a
+--- Switch device S-b8599f0300fc6de4 connected on port 23
+
+Connection:
+Host:
+sysimgguid: 0xc42a103008b3bd0
+port_id= 0xc42a103008b3bd1
+--- Switch device S-0002c903007b78b0 connected on port 34
+
+Connection:
+Host:
+sysimgguid: 0xc42a103008b3bd0
+port_id= 0xc42a103008b3bd0
+--- Switch device S-0002c903007b78b0 connected on port 33
+
+Connection:
+Host:
+sysimgguid: 0x248a0703002e61da
+port_id= 0x248a0703002e61da
+--- Switch device S-0002c903007b78b0 connected on port 31
+
+Connection:
+Host:
+sysimgguid: 0x248a0703002e61da
+port_id= 0x248a0703002e61db
+--- Switch device S-0002c903007b78b0 connected on port 30
+
+Connection:
+Host:
+sysimgguid: 0xb8599f03000a77d0
+port_id= 0xb8599f03000a77d1
+--- Switch device S-0002c903007b78b0 connected on port 20
+
+Connection:
+Host:
+sysimgguid: 0xb8599f03000a77d0
+port_id= 0xb8599f03000a77d0
+--- Switch device S-0002c903007b78b0 connected on port 19
+
+Connection:
+Host:
+sysimgguid: 0xc42a103008b40d0
+port_id= 0xc42a103008b40d1
+--- Switch device S-0002c903007b78b0 connected on port 9
+
+Connection:
+Host:
+sysimgguid: 0xe41d2d03005cf34c
+port_id= 0xe41d2d03005cf34d
+--- Switch device S-0002c903007b78b0 connected on port 5
+
+Connection:
+Host:
+sysimgguid: 0xe41d2d03005cf34c
+port_id= 0xe41d2d03005cf34c
+--- Switch device S-0002c903007b78b0 connected on port 3
+
+Connection:
+Host:
+sysimgguid: 0xc42a103008b40d0
+port_id= 0xc42a103008b40d0
+--- Switch device S-0002c903007b78b0 connected on port 8
+
+##############        End of File        ##############
