@@ -21,7 +21,6 @@ class Devices:
         with open(file_name,'w') as fr:
             for line in self.report:
                 fr.write(line)  
-                time.sleep(0.01)
     
     def add_device(self,sysimgguid,switchguid=None,port_id=None):
         '''
@@ -235,7 +234,7 @@ if __name__ == "__main__":
     # Print option was chosen
     elif args.PRINT:
         # print the reasults
-        file_name = 'log_file.log'        
+        file_name = 'ibnetdiscover_r-dmz-ufm134_parser_output.log'        
         t2 = threading.Thread(target=print_data, args=[file_name])
         t2.start()
         t2.threads.append(t2)
