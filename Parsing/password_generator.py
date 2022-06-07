@@ -16,16 +16,13 @@ password_len = len(source)
 for i in range(password_len):
   action = random.choice(source)
   if action == 'L': # choose letter
-    index = random.randint(0,len(letters)-1)
-    password += letters[index]
+    password += random.choice(letters)
     source.replace('L', '')
   elif action == 'S': # choose symbols
-    index = random.randint(0,len(symbols)-1)
-    password += symbols[index]
+    password += random.choice(symbols)
     source.replace('S', '')
   elif action == 'N': # choose number
-    index = random.randint(0,len(numbers)-1)
-    password += numbers[index]
+    password += random.choice(numbers)
     source.replace('N', '')
 
 print(password)
