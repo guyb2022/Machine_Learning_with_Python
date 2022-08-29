@@ -1,1 +1,1 @@
-A class to handle Classifiaction models
+A class to handle Classification models
